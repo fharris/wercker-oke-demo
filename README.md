@@ -1,4 +1,4 @@
-# Wercker OKE Demo: Get IP address HTTP API
+# Wercker OKE Demo: Get IP address HTTP API - Fernando Harris version
 
 A simple Python application that uses the Bottle framework to serve a JSON encoded client IP address of a user who makes a GET request to /.
 
