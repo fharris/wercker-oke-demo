@@ -13,7 +13,7 @@ def get_ip():
 
 @app.route('/helloworld')
 def helloworld():
-    return json.dumps({"message": "Hola Mundo con Rest y Python!"})
+    return json.dumps({"message": "Hola Mundo con Rest y Python para GFI!"})
 
 
 if __name__ == "__main__":
