@@ -17,7 +17,7 @@ def helloworld():
 
 @app.route('/mgg')
 def mgg():
-    return json.dumps({"message": "Hello Malaga Geek Guild 27th July !!"})
+    return json.dumps({"message": "Hello Malaga Geek Guild 27th July!!!! !!"})
 
 
 
