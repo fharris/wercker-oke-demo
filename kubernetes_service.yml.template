@@ -9,7 +9,6 @@ metadata:
   labels:
     app: get-ip
     commit: ${WERCKER_GIT_COMMIT}
-    author: ${WERCKER_STARTED_BY}
 spec:
   ports:
   - port: 80
@@ -17,5 +16,4 @@ spec:
   selector:
     app: get-ip
     commit: ${WERCKER_GIT_COMMIT}
-    author: ${WERCKER_STARTED_BY}
   type: LoadBalancer
