@@ -16,7 +16,7 @@ def helloworld():
     return json.dumps({"message": "Hola Mundo con Rest y Python para GFI!"})
 
 @app.route('/mgg')
-def helloworld():
+def mgg():
     return json.dumps({"message": "Hello Malaga Geek Guild !!"})
 
 
