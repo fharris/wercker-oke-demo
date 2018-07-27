@@ -15,6 +15,11 @@ def get_ip():
 def helloworld():
     return json.dumps({"message": "Hola Mundo con Rest y Python para GFI!"})
 
+@app.route('/mgg')
+def helloworld():
+    return json.dumps({"message": "Hello Malaga Geek Guild !!"})
+
+
 
 if __name__ == "__main__":
 
