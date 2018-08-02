@@ -13,7 +13,7 @@ def get_ip():
 
 @app.route('/helloworld')
 def helloworld():
-    return json.dumps({"message": "Hola Mundo con Rest y Python para GFI!"})
+    return json.dumps({"message": "Hola Mundo con Rest y Python para ACME!"})
 
 @app.route('/mgg')
 def mgg():
