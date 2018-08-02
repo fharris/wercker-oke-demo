@@ -20,7 +20,7 @@ def mgg():
     return json.dumps({"message": "Python service response!!!! !!"})
 
 @app.route('/xyz')
-def mgg():
+def xyz():
     return json.dumps({"message": "Python service response!!!! !!"})
 
 if __name__ == "__main__":
