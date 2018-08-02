@@ -23,6 +23,11 @@ def mgg():
 def xyz():
     return json.dumps({"message": "Python service response!!!! !!"})
 
+@app.route('/orange_demo')
+def orange_demo():
+    return json.dumps({"message": "Hola Orange!!!! !!"})
+
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
