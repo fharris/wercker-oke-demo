@@ -11,9 +11,7 @@ def get_ip():
     client_ip = request.environ.get('REMOTE_ADDR')
     return json.dumps({"client_ip": client_ip})
 
-@app.route('/meetup')
-def mgg():
-    return json.dumps({"message": "Python service response for the meetup!!!! !!"})
+
 
 
 
