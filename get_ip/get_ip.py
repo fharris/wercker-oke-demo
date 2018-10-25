@@ -11,17 +11,7 @@ def get_ip():
     client_ip = request.environ.get('REMOTE_ADDR')
     return json.dumps({"client_ip": client_ip})
 
-@app.route('/helloworld')
-def helloworld():
-    return json.dumps({"message": "Hola Mundo con Rest y Python para ACME!"})
 
-@app.route('/mgg')
-def mgg():
-    return json.dumps({"message": "Python service response!!!! !!"})
-
-@app.route('/xyz')
-def xyz():
-    return json.dumps({"message": "Python service response!!!! !!"})
 
 if __name__ == "__main__":
 
