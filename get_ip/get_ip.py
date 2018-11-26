@@ -15,6 +15,9 @@ def get_ip():
 def mgg():
     return json.dumps({"message": "Python service response for the meetup!!!! !!"})
 
+@app.route('/smoketest')
+def smoketest():
+    return json.dumps({"message": "smoke test ok!"})
 
 if __name__ == "__main__":
 
