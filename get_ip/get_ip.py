@@ -17,7 +17,7 @@ def mgg():
 
 @app.route('/smoketest')
 def smoketest():
-    return json.dumps({"message": "smoke test ok!"})
+    return json.dumps({"message": "smoke test ok for casa da moeda"})
 
 if __name__ == "__main__":
 
