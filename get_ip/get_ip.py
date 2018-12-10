@@ -19,6 +19,10 @@ def mgg():
 def smoketest():
     return json.dumps({"message": "smoke test ok"})
 
+@app.route('/casadamoeda')
+def casadamoeda():
+    return json.dumps({"message": "casadamoeda test ok"})
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
